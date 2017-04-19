@@ -8,8 +8,6 @@ Created by Julia Nissen, 2017, for use in Edwards' Isotope Lab.
 
 import isocalc
 
-inquiry_input = raw_input("Would you like to print as you go? [y/n] : ")
-
 def Age_Calculation(U_file, Th_file, U_wash, Th_wash, 
                     U_chemblank, Th_chemblank, U_chemblank_wash, Th_chemblank_wash, 
                     AS, sample_wt, spike_wt, chem_spike_wt, 
